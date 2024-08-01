@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDVmWeq5LiDbcAAoDb9JyID1XDZ98sk-lw",
-  authDomain: "chatbot-demo-123.firebaseapp.com",
-  projectId: "chatbot-demo-123",
-  storageBucket: "chatbot-demo-123.appspot.com",
-  messagingSenderId: "1067309827602",
-  appId: "1:1067309827602:web:cc736ede8a0afeaee43acb"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 /**const app = initializeApp(firebaseConfig);
